@@ -1,0 +1,42 @@
+image: registry.gitlab.com/pages/hugo:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - build
+  - review
+  - deploy
+
+test:
+  stage: build
+  script:
+    - hugo
+  only:
+    - branches
+  except:
+    - master
+
+local:review:
+  stage: review
+  script:
+    - echo "start review app locally for Merge Request links to work.  Run 'hugo server'"
+  only:
+    - branches
+  except:
+    - master
+  environment:
+    name: local
+    url: http://127.0.0.1:1313
+  variables:
+    GIT_STRATEGY: none
+
+pages:
+  stage: build
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

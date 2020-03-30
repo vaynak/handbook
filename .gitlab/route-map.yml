@@ -1,0 +1,8 @@
+- source: 'content/index.md'
+  public: '/'
+
+# Drops the markdown extension
+- source: /content\/handbook\/(.+?)\..*/
+  public: 'handbook/\1/'
+- source: /content\/docs\/(.+?)\..*/
+  public: 'docs/\1/'
