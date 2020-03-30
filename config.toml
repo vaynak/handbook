@@ -1,7 +1,7 @@
 baseURL = "https://handbook.brownfield.dev/"
 languageCode = "en-us"
 title = "Suddenly Remote Handbook"
-
+theme = "book"
 
 enableGitInfo = true
 
