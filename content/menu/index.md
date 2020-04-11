@@ -2,6 +2,21 @@
 headless: true
 ---
 
+- [**Company**]({{< relref "/">}})
+  - [Values]({{< relref "/company/values" >}})
+  - [Culture]({{< relref "/company/culture" >}})
+  - [Handbook]({{< relref "/company/handbook" >}})
+  - [Style Guide]({{< relref "/company/styleguide" >}})
+- **Departments**
+  - [PeopleOps]({{< relref "/dept/peopleops" >}})
+  - [Marketing]({{< relref "/dept/marketing" >}})
+  - [IT Ops]({{< relref "/dept/itops" >}})
+  - [Engineering]({{< relref "/dept/engineering" >}})
+  - [Sales]({{< relref "/dept/sales" >}})
+  - [Finance]({{< relref "/dept/finance" >}})
+  - [Legal]({{< relref "/dept/legal" >}})
+
+<br /><br />
 - [**Example Site**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})

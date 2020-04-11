@@ -3,7 +3,7 @@ title: Introduction
 type: docs
 ---
 
-# Acerbo datus maxime
+# Suddenly Remote Handbook
 
 {{< columns >}}
 ## Astris ipse furtiva

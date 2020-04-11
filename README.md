@@ -17,6 +17,8 @@ There are some configurations that need to happen for this to be used for your o
 1.  Update the README to contain instructions for contributing pages
 1.  Use GitLab Pages with the gitlab.io URL until your company DNS 
 
+If you want to checkout the repo to make local copies and run the local review app, be sure to do `git clone -r git@gitlab.com:brownfield-dev/remote/handbook.git` since the theme is currently in a submodule which needs to be pulled.
+
 ## Select a workflow
 
 GitLab offers a lot of workflow flexibility depending on the size of your team and type of content in the handbook.  
