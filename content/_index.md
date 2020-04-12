@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Handbook Home
 type: docs
 ---
 

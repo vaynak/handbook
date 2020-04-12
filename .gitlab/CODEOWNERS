@@ -4,11 +4,16 @@
 # Protects all the gitlab-related configurations including this file
 # /.gitlab/ @tech-guru
 
-# All of the following lines attach specific directories to people or groups.
-# The trailing / indicates that all files and subfolders down the whole tree should trigger these approvers
+# Following directories relate to the design of the book template
+# The trailing / indicates that all files and subfolders down
+# the whole tree should trigger these approvers
 # /archetypes/ @design-person
 # /themes/ @design-person
 # /resources/ @design-person
+# /partials/ @design-person
+# /assets/ @design-person
+
+# Following directories are department-specific.
 # /content/company/ @marketing-person
 # /content/dept/peopleops/ @people-ops-person1 @people-ops-person2
 # /content/dept/itops/ @itops-person1

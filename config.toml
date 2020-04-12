@@ -16,11 +16,11 @@ enableGitInfo = true
 #  [[menu.before]]
 #  name = "GitLab"
 #  url = "https://gitlab.com/brownfield-dev/remote/handbook"
-#  weight = 10
+#  weight = 1
   [[menu.after]]
   name = "Brownfield.dev"
   url = "https://brownfield.dev"
-  weight = 10
+  weight = 100
 
 # [[menu.before]] adds an item to the top of the left-hand links
 

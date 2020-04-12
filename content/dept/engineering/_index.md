@@ -1,7 +1,7 @@
 ---
 title: Engineering
 weight: 1
-# bookCollapseSection: true
+bookCollapseSection: true
 ---
 
 # Engineering
