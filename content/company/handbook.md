@@ -2,7 +2,7 @@
 
 ## Retrieving Information
 
-The handbook is broken into sections for general company information and individual departments.  Each department has a tree of sub-pages with content relevant to that department.
+The handbook is divided into sections for general company information and individual departments.  Each department has a tree of sub-pages with content relevant to that department.
 
 Handbook Table of Contents is on the left side of most pages.
 
@@ -42,3 +42,17 @@ At any point, click the "Create Merge Request" button to add context to the chan
 For a change to the whole site, it is recommended to perform the updates locally using a regular git workflow. The readme file in this repo talks about how to run hugo locally. The Merge Request for these changes will include a link to the local environment to review changes. It will only work for the developer or anyone who checks out the branch and runs Hugo locally.
 
 Be sure to update docs about how to use the handbook for any changes that impact the user worlflow.
+
+### Menu and Navigation
+
+There are 2 approaches to managing the left-side navigation. One is to use the front matter for each page in the site and let it compile the menu at build-time. The alternative is to go into the `config.toml` and set `BookMenuBundle = '/menu'` (or uncomment it). Then the sample `menu/index.md` file will be used to render the left navigation.
+
+{{< hint info >}}
+**Menu Structure**
+
+For changes to titles, order, or other menu renderings, edit the page's _front matter_ or modify the `_index.md` file in that directory.
+{{</ hint >}}
+
+The `menu/index.md` approach has a significant drawback, an additional approval will be required for any changes to the site that require updates to the navigation.
+
+The in-page approach has the drawback that as the site grows, many pages will require the `bookHidden: true` or `bookCollapseSection: true` to be set to prevent being overwehlmed by content.
