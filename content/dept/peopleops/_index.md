@@ -1,6 +1,8 @@
 ---
-#bookFlatSection: true
+title: People Ops
+weight: 4
 ---
+
 test peopleops section
 
 

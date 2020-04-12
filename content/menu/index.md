@@ -1,4 +1,8 @@
 ---
+#This menu page is ignored due to the config.toml file.
+#If you want to manually organize the left navigation rather
+#than using forematter in each page, uncomment the menu
+#configuration and update this page with proper links.
 headless: true
 ---
 
