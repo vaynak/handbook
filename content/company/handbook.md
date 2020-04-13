@@ -56,3 +56,23 @@ For changes to titles, order, or other menu renderings, edit the page's _front m
 The `menu/index.md` approach has a significant drawback, an additional approval will be required for any changes to the site that require updates to the navigation.
 
 The in-page approach has the drawback that as the site grows, many pages will require the `bookHidden: true` or `bookCollapseSection: true` to be set to prevent being overwehlmed by content.
+
+## Front Matter Options
+
+```toml
+---
+bookHidden: true
+bookCollapseSection: true
+weight: 11
+title: GitLab Workflow with Infrastructure as Code
+bookToc: false
+bookFlatSection: true
+---
+```
+
+*  `bookHidden`: if set to true, hides the page from the left navigation
+*  `bookCollapseSection`: if set to true, it only shows this page in the left nav and child pages only appear when navigated to.
+*  `weight`: Sets the order in the left navigation with 1 at the top and 10000 at the bottom.
+*  `title`: the text that shows in the left navigation for the title
+*  `bookToc`: Hides the page-specific table of content (on the right-hand side of the page)
+*  `bookFlatSection`: If set to true, promotes the pages at this level to the same tier as the _index page.
