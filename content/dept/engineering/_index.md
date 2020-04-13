@@ -12,9 +12,9 @@ The engineering section is built out as an example for how to use a collapsed se
 
 - [Development]({{< relref "development" >}})
 - [Infrastructure]({{< relref "infrastructure" >}})
-- [Quality]({{< relref "Quality" >}})
-- [Security]({{< relref "Security" >}})
-- [Support]({{< relref "Support" >}})
+- [Quality]({{< relref "quality" >}})
+- [Security]({{< relref "security" >}})
+- [Support]({{< relref "support" >}})
 - [User Experience]({{< relref "user-experience" >}})
 
 ## Same-level pages
