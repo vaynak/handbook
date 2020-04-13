@@ -1,4 +1,4 @@
-image: registry.gitlab.com/pages/hugo:0.67.1
+image: registry.gitlab.com/brownfield-dev/remote/handbook:v1-0
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
