@@ -6,36 +6,46 @@ type: docs
 # Suddenly Remote Handbook
 
 {{< columns >}}
-## Astris ipse furtiva
+## Suddenly Remote
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+Suddenly changing how an entire organization works is very disruptive and
+suddenly being unable to share space is a novel problem. Most disaster
+recovery plans and business continuity plans lack aspects of continuing
+to work when you can't be co-located with co-workers.
 
 <--->
 
-## Suis quot vota
+## Handbook Template
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
+A suggestion for many companies finding themselves in this remote position
+is to create a handbook. The way a handbook centralizes knowledge of how an
+organization operates (or should operate) is very helpful. None of the
+existing templates seemed like a proper starting point, so I created this one.
 {{< /columns >}}
 
 
-## Tempora nisi nunc
+## The Importance of Handbook
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+The ultimate goal is that non-technical resources could use this template to
+create a starting point for an organization unit or company to use for a
+handbook.
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
+## Getting Started
 
-## Locis suis novi cum suoque decidit eadem
+This handbook template can be leveraged by anyone in the world by following
+these steps. Expect a video walk-through soon.
 
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+1.  Create a GitLab.com account
+1.  Create a Group for your company or organization
+1.  Create a new project in that group
+1.  Set the new project as `Import project` and choose `GitLab Export`
+1.  Download the [handbook-project-export.tar.gz](/handbook-project-export.tar.gz) from this site.
+1.  Name the project `handbook` or something like that
+1.  Set visibility to `public` if you don't mind the internet watching you build your handbook, keep it `private` otherwise.
+1.  There are some pre-loaded issues in the project for establishing a workflow and custom domain, complete those
+1.  Delete the sample content and replace it with your own.  Parts of the sample data exist to demonstrate capabilities of the template.
+
+## Provide Feedback
+
+If this template lets you down and doesn't make sense, please provide feedback
+so we can improve it for future use.
