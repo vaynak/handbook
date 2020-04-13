@@ -13,6 +13,8 @@ suddenly being unable to share space is a novel problem. Most disaster
 recovery plans and business continuity plans lack aspects of continuing
 to work when you can't be co-located with co-workers.
 
+See [https://allremote.info](https://allremote.info) for more information. 
+
 <--->
 
 ## Handbook Template
