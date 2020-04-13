@@ -21,6 +21,8 @@ A suggestion for many companies finding themselves in this remote position
 is to create a handbook. The way a handbook centralizes knowledge of how an
 organization operates (or should operate) is very helpful. None of the
 existing templates seemed like a proper starting point, so I created this one.
+
+See the [Handbook Page]({{< relref "company/handbook" >}}) for more information.
 {{< /columns >}}
 
 
@@ -47,5 +49,8 @@ these steps. Expect a video walk-through soon.
 
 ## Provide Feedback
 
-If this template lets you down and doesn't make sense, please provide feedback
-so we can improve it for future use.
+If this template lets you down and doesn't make sense, please [provide feedback](https://gitlab.com/brownfield-dev/remote/feedback/-/issues/new)
+so we can improve the template for future use.  To submit a change to the template or sample content, 
+use the Fork + Merge Request workflow.  Since this is a template project, git history may be rewritten 
+and issues are part of the template content, so for clarity and ease-of-use the regular workflow is not 
+supported for this project. 

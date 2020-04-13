@@ -51,6 +51,15 @@ enableGitInfo = true
   # Path must point to 'content' directory of repo.
   BookEditPath = '-/edit/master/content'
 
+  # Added for webide link
+  # https://gitlab.com/-/ide/project/brownfield-dev/remote/handbook/edit/master/-/content/company/_index.md
+  # BookRepoHost      |
+  #                                 | BookGroupProject             |
+  #                                                                | BookWebIdePath      |
+  BookRepoHost = 'https://gitlab.com'
+  BookRepoGroupProject = 'brownfield-dev/remote/handbook'
+  BookWebIdePath = 'edit/master/-/content/'
+
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information
   # - In blog posts
