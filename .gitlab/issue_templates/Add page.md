@@ -32,6 +32,8 @@ bookHidden: true
 bookCollapseSection: true
 weight: 11
 title: GitLab Workflow with Infrastructure as Code
+bookToc: false
+bookFlatSection: true
 ---
 ```
 
@@ -39,3 +41,5 @@ title: GitLab Workflow with Infrastructure as Code
 *  `bookCollapseSection`: if set to true, it only shows this page in the left nav and child pages only appear when navigated to.
 *  `weight`: Sets the order in the left navigation with 1 at the top and 10000 at the bottom.
 *  `title`: the text that shows in the left navigation for the title
+*  `bookToc`: Hides the page-specific table of content (on the right-hand side of the page)
+*  `bookFlatSection`: If set to true, promotes the pages at this level to the same tier as the _index page.
