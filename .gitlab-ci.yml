@@ -1,4 +1,4 @@
-image: registry.gitlab.com/pages/hugo:latest
+image: registry.gitlab.com/pages/hugo:0.68.3
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -18,6 +18,7 @@ test:
     - master
 
 local:review:
+  image: alpine:latest
   stage: review
   script:
     - echo "start review app locally for Merge Request links to work.  Run 'hugo server'"
