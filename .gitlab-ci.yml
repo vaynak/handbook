@@ -35,6 +35,7 @@ local:review:
 pages:
   stage: build
   script:
+    - git submodule update --init --recursive
     - hugo
   artifacts:
     paths:
