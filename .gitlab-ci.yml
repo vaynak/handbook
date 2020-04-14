@@ -1,4 +1,4 @@
-image: registry.gitlab.com/brownfield-dev/remote/handbook:v1-0
+image: registry.gitlab.com/brownfield-dev/remote/handbook:v1-1
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
@@ -35,7 +35,6 @@ local:review:
 pages:
   stage: build
   script:
-    - git submodule update --init --recursive
     - hugo
   artifacts:
     paths:
