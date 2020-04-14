@@ -34,6 +34,12 @@ The ultimate goal is that non-technical resources could use this template to
 create a starting point for an organization unit or company to use for a
 handbook.
 
+### Wiki Handbooks Don't Scale
+
+At GitLab, like many others, the handbook started as an informal collection of 
+documents and wikis. The way Wikis work doesn't lend themselves to handbooks for 
+several reasons, which we have outlined on the [Handbook Usage](https://about.gitlab.com/handbook/handbook-usage/#wiki-handbooks-dont-scale) page.
+
 ## Getting Started
 
 This handbook template can be leveraged by anyone in the world by following
