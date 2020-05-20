@@ -35,6 +35,7 @@ local:review:
 pages:
   stage: build
   script:
+    - echo "${FATHOM_SCRIPT_TAG}" >> layouts/partials/docs/inject/head.html
     - hugo
   artifacts:
     paths:
