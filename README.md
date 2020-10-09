@@ -17,7 +17,14 @@ There are some configurations that need to happen for this to be used for your o
 1.  Update the README to contain instructions for contributing pages
 1.  Use GitLab Pages with the gitlab.io URL until your company DNS 
 
-If you want to checkout the repo to make local copies and run the local review app, be sure to do `git clone -r git@gitlab.com:brownfield-dev/remote/handbook.git` since the theme is currently in a submodule which needs to be pulled.
+If you want to checkout the repo to make local copies and run the local review app, be sure to do: 
+
+```bash
+git clone git@gitlab.com:brownfield-dev/remote/handbook.git
+git submodule update --init --recursive
+```
+
+The theme is currently in a submodule which needs to be pulled.
 
 If there's an error about "Shortcode 'columns' not found", that means the submodule didn't get fetched.  Use `git submodule update` to retrieve that content. 
 
