@@ -21,6 +21,7 @@ If you want to checkout the repo to make local copies and run the local review a
 
 ```bash
 git clone git@gitlab.com:brownfield-dev/remote/handbook.git
+cd handbook 
 git submodule update --init --recursive
 ```
 
