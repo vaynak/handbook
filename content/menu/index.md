@@ -5,12 +5,13 @@
 #configuration and update this page with proper links.
 headless: true
 ---
-
+<!-- markdownlint-disable MD041 -->
 - [**Company**]({{< relref "/">}})
   - [Values]({{< relref "/company/values" >}})
   - [Culture]({{< relref "/company/culture" >}})
   - [Handbook]({{< relref "/company/handbook" >}})
   - [Style Guide]({{< relref "/company/style-guide" >}})
+<!-- markdownlint-disable MD033 -->
 <br />
 - **Departments**
   - [PeopleOps]({{< relref "/dept/peopleops" >}})
@@ -24,4 +25,3 @@ headless: true
   - [Sales]({{< relref "/dept/sales" >}})
   - [Finance]({{< relref "/dept/finance" >}})
   - [Legal]({{< relref "/dept/legal" >}})
-

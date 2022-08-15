@@ -14,7 +14,8 @@ Tabs let you organize content by context, for example installation instructions 
 
 {{< tabs "uniqueid" >}}
 {{< tab "MacOS" >}}
-# MacOS
+
+## MacOS
 
 This is tab **MacOS** content.
 
@@ -26,7 +27,7 @@ Miseratus fonte Ditis conubia.
 
 {{< tab "Linux" >}}
 
-# Linux
+## Linux
 
 This is tab **Linux** content.
 
@@ -38,7 +39,7 @@ Miseratus fonte Ditis conubia.
 
 {{< tab "Windows" >}}
 
-# Windows
+## Windows
 
 This is tab **Windows** content.
 

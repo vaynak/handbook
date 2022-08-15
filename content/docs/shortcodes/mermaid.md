@@ -5,6 +5,7 @@
 ## Example
 
 {{< columns >}}
+
 ```tpl
 {{</* mermaid */>}}
 sequenceDiagram

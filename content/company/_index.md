@@ -6,10 +6,10 @@ weight: 1
 
 Describe the organization.
 
-# Mission
+## Mission
 
-# Vision
+## Vision
 
-# Goals
+## Goals
 
-# Leadership
+## Leadership

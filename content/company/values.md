@@ -4,6 +4,6 @@ GitLab is the first company the author has ever worked at that elevated values t
 
 ## List the values
 
-## Addditional Value Context, Sub-values
+## Additional Value Context, Sub-values
 
 ### Specific Behaviors for Each Value and Sub-value

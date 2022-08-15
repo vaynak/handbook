@@ -3,6 +3,6 @@ title: Development
 weight: 1
 ---
 
-# Development Team
+## Development Team
 
 The software developers.
