@@ -45,21 +45,12 @@ enableGitInfo = true
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://gitlab.com/brownfield-dev/remote/handbook'
+  BookRepo = 'https://github.com/agenticinstitute/handbook'
 
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to 'content' directory of repo.
-  BookEditPath = '-/edit/main/content'
-
-  # Added for webide link
-  # https://gitlab.com/-/ide/project/brownfield-dev/remote/handbook/edit/main/-/content/company/_index.md
-  # BookRepoHost      |
-  #                                 | BookGroupProject             |
-  #                                                                | BookWebIdePath      |
-  BookRepoHost = 'https://gitlab.com'
-  BookRepoGroupProject = 'brownfield-dev/remote/handbook'
-  BookWebIdePath = 'edit/main/-/content/'
+  BookEditPath = 'edit/main/content'
 
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information
